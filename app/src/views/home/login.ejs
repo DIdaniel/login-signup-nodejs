@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/home/login.css" />
     <title>Document</title>
   </head>
   <body>
-    <input id="id" placeholder="Input your ID" type="text" /><br />
-    <input
-      id="password"
-      placeholder="Input your password"
-      type="password"
-    /><br />
-    <button>LOGIN</button>
+    <div class="login-page">
+      <div class="form">
+        <form class="login-form">
+          <input id="id" type="text" placeholder="ID" />
+          <input id="password" type="password" placeholder="PASSWORD" />
+          <button>login</button>
+          <p class="message">
+            Not registered? <a href="/register">Create an account</a>
+          </p>
+        </form>
+      </div>
+    </div>
   </body>
   <script src="./js/home/login.js"></script>
 </html>
+
+<!-- Copyright (c) 2021 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) -->
